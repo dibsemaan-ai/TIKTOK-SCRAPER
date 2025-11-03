@@ -1,0 +1,9 @@
+{
+  "name": "tiktok-us-creators-10k-100k",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "apify": "^3.0.0",
+    "axios": "^1.7.2"
+  }
+}
