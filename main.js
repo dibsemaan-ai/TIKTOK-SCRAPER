@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const { Actor, log, sleep, KeyValueStore, Dataset } = Apify;
 
-// ---------- Helpers ----------
+// ---------- Helpers ---------- 
 const normalizeHandle = (h) => {
   if (!h) return null;
   const clean = String(h).trim().replace(/^@+/, '');
